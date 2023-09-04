@@ -78,7 +78,41 @@
         </tbody></table>
         
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-          
+        
+          <tr onmouseout="malle_stop()" onmouseover="malle_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <img src='images/iccv23_high.png' width="250"></div>
+                <!-- <img src='images/MalleConv_before.jpg' width="160"> -->
+              </div>
+              <script type="text/javascript">
+                function malle_start() {
+                  document.getElementById('malle_image').style.opacity = "1";
+                }
+
+                function malle_stop() {
+                  document.getElementById('malle_image').style.opacity = "0";
+                }
+                malle_stop()
+              </script>
+            </td>
+            
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://caadria2022.org/design_intents_disentanglement_a_multimodal_approach_for_grounding_design_attributes_in_objects/#:~:text=Design%20Intents%20Disentanglement%3A%20A%20Multimodal%20Approach%20For%20Grounding%20Design%20Attributes%20In%20Objects,-Manuel%20Ladron%20De&text=Language%20is%20ambiguous%3B%20many%20terms,qualitative%20attributes%2C%20called%20design%20intents.">
+                <papertitle>Cross-modal Latent Space Alignment for Image to Avatar Translation</papertitle>
+              </a>
+              <br>
+              <strong>Manuel Ladron de Guevara</strong>,
+              <a href="http://www.jiechevarria.com/">Jose Echevarria</a>,
+              <a href="https://yijunmaverick.github.io/">Yijun Li</a>, 
+              <a href="https://yannickhold.com/">Yannick Hold-Geoffroy</a>,
+              <a href="https://research.adobe.com/person/cameron-smith/">Cameron Smith</a>,
+              <a href="https://daich.net/">Daichi Ito</a>
+              <br>
+              <em>Forthcoming ICCV</em>, 2023
+            </td>
+          </tr>
+
           <tr onmouseout="malle_stop()" onmouseover="malle_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
