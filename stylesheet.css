@@ -1,0 +1,58 @@
+/* Base styles for the Jon Barron-style layout. Link colors stay in the
+   inline <style> block of index.html. */
+
+body,
+td,
+th,
+tr,
+p,
+a,
+li {
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+strong {
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+h2 {
+  margin: 0;
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+}
+
+name {
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+}
+
+papertitle {
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+/* Thumbnails fit their column instead of spilling into the text. */
+td img {
+  max-width: 100%;
+  height: auto;
+}
+
+.award {
+  color: rgb(246, 59, 7);
+}
+
+.news {
+  margin: 12px 0 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+.news li {
+  margin-bottom: 6px;
+}
